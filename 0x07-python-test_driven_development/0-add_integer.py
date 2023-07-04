@@ -2,11 +2,13 @@
 '''
 Module containing one function
 '''
+
+
 def add_integer(a, b=98):
     '''
     Function that adds two inegers
 
-    args:a and b which are to be summed 
+    args:a and b which are to be summed
 
     returns: int: The sum of a and b
     '''
