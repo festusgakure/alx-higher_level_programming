@@ -1,0 +1,42 @@
+The ``0-add_integer.py`` module
+
+===============================
+
+Using ``add_integer``
+
+
+Import:
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+Testing
+
+	>>> add_integer(2, 3)
+	5
+	>>> add_integer(15, -2)
+	13
+	>>> add_integer(-5, -3)
+	-8
+	>>> add_integer(3.7, 2)
+	5
+	>>> add_integer(6.5, -8)
+	-2
+	>>> add_integer(-2.4, -4)
+	-6
+	>>> add_integer(5.0, 6.5)
+	11
+	>>> add_integer(-3.0, 2.5)
+	-1
+	>>> add_integer(-3.0, -2.5)
+	-5
+	>>> add_integer("qwert", -2.5)
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+	>>> add_integer(0)
+	98
+	>>> add_integer(9)
+	107
+	>>> add_integer()
+	Traceback (most recent call last):
+	...
+       	TypeError: add_integer() missing 1 required positional argument: 'a'
